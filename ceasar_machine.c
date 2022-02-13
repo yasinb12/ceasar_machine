@@ -28,6 +28,7 @@ int main(void)
         {
                 switch(message[j])
                 {
+                        /*Allows encryption to skip over spaces and punctuation*/
                         case 32: case 33: case 39: case 44: case 46: case 63:
                              ciphertext[j] = message[j];
                 }
